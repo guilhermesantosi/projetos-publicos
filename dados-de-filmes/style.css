@@ -1,0 +1,91 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+  --color-principal: #224768;
+  --color-thead:#1d5586;
+  --font-tamanho: 1.0em;
+  --font-color: white;
+
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--color-principal);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: var(--font-tamanho);
+    
+}
+
+header h1 {
+    font-family:'Roboto', sans-serif;
+}
+
+nav {
+    background-color: var(--color-principal);
+    margin-bottom: 40px;
+}
+
+nav a{
+    padding:10px;
+}
+
+main{
+    overflow-x: auto;
+}
+
+footer{
+    background-color:var(--color-principal);
+    padding: 10px;
+    margin-top: 30px;
+    color:var(--font-color);
+    text-align: center;
+}
+
+   a{
+   color: var(--font-color);
+   font-weight: bold;
+   text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    max-width:800px;
+}
+
+th,td{
+    border:1px solid black;
+    padding: 10px;
+}
+
+
+th{
+ background-color: var(--color-thead);
+ color: var(--font-color);
+}
+
+tr:nth-child(even){
+    background-color: rgb(237, 240, 241);
+}
+
+td:hover{
+    color: rgb(163, 163, 163);
+}
+
+
