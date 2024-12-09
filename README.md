@@ -2,4 +2,36 @@
  Acesse meus projetos pessoais
 
 
- primeiro projeto <a href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a>
+# Projetos Publicos
+
+Bem-vindo ao meu repositório de projetos publicos! Este repositório contém vários projetos que fiz para aprimorar minhas habilidades em **HTML, CSS, JavaScript**. Eles são uma coleção de desafios que me ajudaram a aprender e melhorar ao longo do tempo.
+
+## Projetos
+
+Aqui estão alguns dos projetos que você pode encontrar neste repositório:
+
+- **Projeto 1**: <a href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a> Um projeto de tabela com informaçãoes de filmes
+
+## Como usar
+
+Para começar a usar qualquer um dos projetos neste repositório, basta seguir as instruções abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/guilhermesantosi/projetos-publicos.git
+
+# Contribuindo
+
+Se você gostaria de contribuir com melhorias ou sugestões, fique à vontade para criar um fork do repositório, fazer as alterações e enviar um pull request.
+
+**Licença**
+
+Este projeto está licenciado sob a [MIT licece]. Veja o arquivo LICENSE para mais detalhes.
+
+
+---
+
+Obrigado por visitar meu repositório!
+
+Se você tem dúvidas ou sugestões, fique à vontade para abrir uma issue ou me enviar uma mensagem.
+
