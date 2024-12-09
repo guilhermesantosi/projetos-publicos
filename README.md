@@ -20,6 +20,10 @@ Para começar a usar qualquer um dos projetos neste repositório, basta seguir a
    ```bash
    git clone https://github.com/guilhermesantosi/projetos-publicos.git
 
+2. Navegue até o diretório do projeto:
+   ´´´bash
+   cd nome-do-projeto   
+
 # Contribuindo
 
 Se você gostaria de contribuir com melhorias ou sugestões, fique à vontade para criar um fork do repositório, fazer as alterações e enviar um pull request.
