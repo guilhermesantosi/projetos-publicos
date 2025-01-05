@@ -8,7 +8,8 @@
   --color-principal: #224768;
   --color-thead:#1d5586;
   --font-tamanho: 1.0em;
-  --font-color: white;
+  --font-color1: white;
+  --font-color2: rgb(216, 216, 216);
 
 
 }
@@ -54,13 +55,15 @@ footer{
 }
 
    a{
-   color: var(--font-color);
+   color: var(--font-color2);
    font-weight: bold;
    text-decoration: none;
+   font-size: 1.5em;
 }
 
 a:hover{
     text-decoration: underline;
+    color: var(--font-color1);
 }
 
 table{
