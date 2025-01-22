@@ -11,6 +11,8 @@ Bem-vindo ao meu repositório de projetos publicos! Este repositório contém v�
 Aqui estão alguns dos projetos que você pode encontrar neste repositório:
 
 - **Projeto 1**: <a href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a> Um projeto de tabela com informaçãoes de filmes
+- **Projeto 2**: <a href="https://guilhermesantosi.github.io/projetos-publicos/Perfil">Perfil</a> Um projeto sobre meus perfis da
+  internet
 
 ## Como usar
 
