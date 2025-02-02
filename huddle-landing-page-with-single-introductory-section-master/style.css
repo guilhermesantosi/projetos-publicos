@@ -74,16 +74,15 @@ button{
     border: none;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    transition: background-color 0.3s ease-in-out 0.0s;
 }
 
 button:hover{
-    color:hsl(300, 69%, 71%) ;
-    background-color: rgb(204, 203, 203);
+    background-color:hsl(300, 69%, 71%) ;
 }
 
 .icon{
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin:5px;
     text-align: center;
 }
 
@@ -94,6 +93,10 @@ i{
     color: white;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+i:hover{
+    color:hsl(300, 69%, 71%) ;
 }
 
 
