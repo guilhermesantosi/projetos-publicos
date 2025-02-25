@@ -37,6 +37,7 @@ body{
     flex-flow: column nowrap;
     gap: 30px;
 
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,8 +47,8 @@ body{
 
 .box1{
   background-color: var(--Dark-Blue);
-  width: 430px;
-  height: 250px;
+  width: 400px;
+  height: 230px;
   border-radius: 15px;
   border-top-right-radius: 8rem;
 }
@@ -75,8 +76,8 @@ body{
 .box2{
     background-color: var(--Dark-Blue);
     color: white;
-    width: 430px;
-    height: 250px;
+    width: 400px;
+    height: 230px;
     border-radius: 15px;
     
     font-size: 1.2em;
@@ -165,7 +166,6 @@ body{
         background-image: url(images/bg-desktop.png);
         background-size:85rem;
         background-position: center  bottom;
-        overflow-: hidden;
     }
 
     .coiteiner{
@@ -175,8 +175,8 @@ body{
 
     .box2{
         width: 40rem;
-        height: 200px;
-        margin-top: 50px ;
+        height: 190px;
+        margin-top: 40px ;
         align-items: normal;
     }
 
