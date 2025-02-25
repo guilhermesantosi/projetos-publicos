@@ -23,9 +23,9 @@ body,html{
 }
 
 body{
+    background-color: var(--Very-Dark-Blue);
     background-image: url(images/bg-mobile.png);
     background-repeat: no-repeat;
-    background-position: top right;
     background-size: cover;
     
 
@@ -163,12 +163,14 @@ body{
     
     body{
         background-image: url(images/bg-desktop.png);
-        background-size: cover;
-        overflow-x: hidden;
+        background-size:85rem;
+        background-position: center  bottom;
+        overflow-: hidden;
     }
 
     .coiteiner{
         flex-flow: row nowrap;
+        top:45%;
     }
 
     .box2{
