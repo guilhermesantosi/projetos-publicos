@@ -14,18 +14,7 @@ Aqui estão alguns dos projetos que você pode encontrar neste repositório:
 - **Projeto 2**: <a  target=black href="https://guilhermesantosi.github.io/projetos-publicos/Perfil">Perfil</a> Um projeto sobre meus perfis da
   internet
 - **Projeto 3**: <a target=black href="https://guilhermesantosi.github.io/projetos-publicos/huddle-landing-page-with-single-introductory-section-master">huddle-landing-page-with-single-introductory-section-master</a>
-
-## Como usar
-
-Para começar a usar qualquer um dos projetos neste repositório, basta seguir as instruções abaixo:
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/guilhermesantosi/projetos-publicos.git
-
-2. Navegue até o diretório do projeto:
-   ´´´bash
-   cd nome-do-projeto   
+- **Projeto 4**: <a href="https://guilhermesantosi.github.io/projetos-publicos/fylo-data-storage-component-master/">fylo-data-storage-component-master</a>
 
 # Contribuindo
 
