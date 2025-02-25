@@ -163,9 +163,9 @@ body{
     
     body{
         background-image: url(images/bg-desktop.png);
-        background-size:85rem;
+        background-size:90rem;
         background-position: center  bottom;
-        overflow-: hidden;
+        
     }
 
     .coiteiner{
