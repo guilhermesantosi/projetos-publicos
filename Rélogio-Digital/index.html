@@ -9,10 +9,34 @@
 <body>
     <main>
         <section>
-            <div class="time" id="hora"></div>
+                
+            <div class="time" id="horas"></div>
             <div class="time" id="min"></div>
             <div class="time" id="seg"></div>
         </section>
+
+        <script>
+            function Relogio() {
+            const agora = new Date()
+            const h = agora.getHours().toString().padStart(2, '0');
+            const m = agora.getMinutes().toString().padStart(2, '0');
+            const s = agora.getSeconds().toString().padStart(2, '0');
+
+            const hora = document.getElementById('horas')
+            const minuto = document.getElementById('min')
+            const segundo = document.getElementById('seg')
+
+            hora.innerText = (`${h}`)
+            minuto.innerText = (`${m}`)
+            segundo.innerText = (`${s}`)
+        
+            }
+
+            setInterval(Relogio, 1000);
+            Relogio();
+
+            
+        </script>
     </main>
 </body>
 </html>
