@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <!-- Sign-up form start-->
+
+  <main>
+    
+    <div  id="image" class="imagen-ilustration"></div>
+     
+    <section id="form">
+      
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      
+      
+      <div class="form-email">
+      
+        <div class="form-email-name">
+          <label for="email">Email address</label>
+          <span id="messagem" class="erro"></span>
+        </div>
+
+        <input type="email" name="emai" id="email" placeholder="email@.comapany.com">
+      </div>
+
+      <input type="button" value="subscribe to monthly newsletter" onclick="vereficar()">
+      
+    </section>
+    <!-- Sign-up form end -->
+   
+
+    <!-- Success message start -->
+    <div class="success" id="sucess-pag">
+      <img class="icon-scs" src="assets/images/icon-success.svg" alt="icon-success">
+      <h1>Thanks for subscribing!</h1>
+      <p>
+        A confirmation email has been sent to <strong>ash@loremcompany.com</strong>.
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <input type="button" value="dismiss messagem">
+    </div>
+    <!-- Success message end -->
+    
+  </main>
+
+  <script>
+      function vereficar(){
+      let email = document.getElementById("email").value
+      let emaill = document.getElementById('email')
+      let erro = document.getElementById("messagem")
+      let img = document.getElementById('image')
+      let login = document.getElementById('form')
+      let sucess = document.getElementById('sucess-pag')
+
+      if (!email.endsWith("@gmail.com")){
+        erro.innerText = 'your email required'
+        emaill.style.border = ('1px solid red')      
+      }else{
+          img.style.display = ('none')
+          login.style.display = ('none')
+          sucess.style.display = ('block')
+      }
+
+
+      }
+  </script>
+  
+</body>
+</html>
