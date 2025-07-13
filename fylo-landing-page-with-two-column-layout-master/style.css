@@ -16,7 +16,6 @@
 }
 
 body{
-    
     height: 100vh;
 }
 
@@ -27,9 +26,23 @@ a{
     
 }
 
+h1{
+    color: var(--Very-Dark-Blu);
+}
+
 p{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+hr{
+    width: 160px;
+    margin-top: 5px;
+    border: 1px solid var(--Moderate-Cyan);
+}
+
+#icon-arrow{
+    width:15px;
 }
 
 input[type="text"]{
@@ -74,7 +87,6 @@ input[type="button"]{
 
 .main{
     display: flex;
-    flex-wrap: nowwrap;
     gap: 10rem;
     margin: 50px;
 }
@@ -82,4 +94,161 @@ input[type="button"]{
 .box1{
   width: 500px;
 }
+
+.main2{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 35rem;
+    padding: 100px;
+    margin-top: 200px;
+    
+    
+}
+
+.sub-main2{
+    display: flex;
+
+    
+}
+
+.box2{
+   max-width: 550px;
+}
+
+.box3{
+    background-color: white;
+    width: 284px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px var(--Light-Gray) ;
+}
+
+#perfil{
+    width: 35px;
+    border-radius: 50%;
+}
+
+#name{
+    font-size: 0.9em;
+}
+
+#drsc{
+    font-size: 0.8em;
+}
+
+.two{
+    display: flex;
+    gap: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+#h{
+ color: var(--Moderate-Cyan);
+ 
+}
+
+.footer1{
+    background-color: var(--Desaturated-Blue);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.box11{
+    max-width: 450px;
+    color: white;
+}
+
+.box11>h1{
+    color: white;
+}
+
+.box22{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer2{
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 70px;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+.p-footer2{
+ margin-top: 15px;
+}
+
+@media (max-width:1440px ){
+
+    .ilu{
+    width: 400px;
+    height: 370px;
+}
+
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box1{
+        text-align: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    input[type="button"]{
+    width: 315px;
+    }
+
+    .main2{
+    background-image: url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-bottom: 300px;
+    
+    
+   }
+
+   .sub-main2{
+    flex-direction: column-reverse;
+   }
+
+   .box2>h1{
+    text-align: center;
+   }
+
+   .footer1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+
+   .footer2{
+    flex-direction: column;
+   }
+
+
+   
+}
+
 
