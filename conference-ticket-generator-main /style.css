@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --Neutral-0: hsl(0, 0%, 100%);
+    --Neutral-300: hsl(252, 6%, 83%);
+    --Neutral-500: hsl(245, 15%, 58%);
+    --Neutral-500-transparente: hsl(245, 15%, 58%,0.2);
+    --Neutral-500-transparente-hover: hsl(245, 15%, 58%,0.5);
+    --Neutral-700: hsl(245, 19%, 35%);
+    --Neutral-900: hsl(248, 70%, 10%);
+
+    --Orange-500: hsl(7, 88%, 67%);
+    --Orange-700: hsl(7, 71%, 60%);
+}
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+/*Elementos gerais*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Neutral-900);
+    background-image:
+      url('assets/images/pattern-squiggly-line-top.svg'),
+      url('assets/images/pattern-lines.svg'),
+      url('assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'),
+      url('assets/images/background-mobile.png');
+
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size:7rem, cover, 20rem, cover;
+    background-position: top 20px right 10px, top, bottom left, center;
+}
+
+h1{
+    font-size: 1.6em;
+}
+
+label{
+    color: var(--Neutral-0);
+}
+
+input[type="file"]{
+    display: none;
+}
+
+/*Layouts*/
+
+.form-start{
+    display:block;
+    padding: 1rem;
+}
+
+.generated-ticket{
+    display: none;
+    padding: 1rem;
+    color: var(--Neutral-0);
+}
+
+/* div header e componentes*/
+
+.header{
+    text-align: center;
+    color: var(--Neutral-0);
+}
+
+.header-div-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0 1em 0;
+
+}
+
+.logo{
+    width: 10rem;
+}
+
+.sub-descricion-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    word-spacing: 5px;
+    color: var(--Neutral-300);
+    max-width: 250px;
+    margin: 1em auto;
+}
+
+/*formulario e componetes*/
+
+/*arquivo imagem*/
+
+.arquivo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--Neutral-500-transparente);
+  color: white;
+  height: 110px;
+  border: 2.5px  dashed var(--Neutral-500);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0 5px 0;
+  
+}
+
+.arquivo:hover{
+    background-color: var(--Neutral-500-transparente-hover);
+}
+
+#enviar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: var(--Neutral-300);
+}
+
+.butao-enviar-imagem{
+    background-color: var(--Neutral-700);
+    width: 45px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#resultado{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.avatar{
+    width: 45px;
+    border: 1px solid var(--Neutral-500);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn-img{
+    border: none;
+    background-color: var(--Neutral-500-transparente);
+    color: var(--Neutral-300);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*classe funcionais*/
+
+#alerta{
+    display: flex;
+    align-items: center;
+    color: var(--Neutral-300);
+    font-size: 0.7em;
+    gap: 10px;
+}
+
+#alerta-1{
+    display: none;
+    align-items: center;
+    color: var(--Orange-500);
+    font-size: 0.7em;
+    gap: 10px;
+
+}
+
+/*form*/
+
+.formulario{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.form{
+    padding: 10px;
+    border:1px solid var(--Neutral-500);
+    background-color: var(--Neutral-500-transparente);
+    color: var(--Neutral-0);
+    border-radius: 5px;
+}
+
+.form:hover{
+    background-color: var(--Neutral-500-transparente-hover);
+}
+
+.generator{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--Orange-700);
+    color: var(--Neutral-900);
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.generator:hover{
+    background-color: var(--Orange-500);
+}
+
+/*Generated tickets*/
+
+.name{
+    background: linear-gradient(to right,var(--Orange-500), var(--Neutral-0));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+
+.email{
+    color: var(--Orange-500);
+}
+
+.title-generated-ticket{
+    text-align: center;
+}
+
+.descricao-ticket{
+    max-width: 300px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    color: var(--Neutral-300);
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    padding:20px;
+    background-image: url('assets/images/pattern-ticket.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.logo-ticket{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo-tck{
+    width: 200px;
+}
+
+.data{
+   margin-left: 30px;
+   color: var(--Neutral-300);
+}
+
+.infomacao-main{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.avatar-2{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.infomacao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name-ticket{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    color: var(--Neutral-300);
+}
+
+@media (min-width: 600px) {
+    body{
+        background-image:
+        url('assets/images/pattern-squiggly-line-top.svg'),
+        url('assets/images/pattern-lines.svg'),
+        url('assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'),
+        url('assets/images/background-desktop.png');
+
+        background-size:20rem, cover, 34rem, cover;
+        background-position: top 80px right , top, bottom left, center;
+    }
+
+    .header{
+        width: 700px;
+        margin: 0 auto;
+        
+    }
+
+    .descricion-header{
+        font-size: 2.8em;
+        
+        
+    }
+
+    .sub-descricion-header{
+        font-size: 1.2em;
+        max-width: 600px;
+    }
+
+    .infomacao-main{
+        margin-top: 80px;
+    }
+
+    .title-generated-ticket{
+        font-size: 2em;
+    }
+}
