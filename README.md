@@ -18,6 +18,9 @@ Aqui estão alguns dos projetos que você pode encontrar neste repositório:
 - **Projeto 5**: <a href="https://guilhermesantosi.github.io/projetos-publicos/R%C3%A9logio-Digital/">Rélogio-Digital</a> È um projeto onde mostra o horario exato só que virtualmente
 - **Projeto 5**: <a href="https://guilhermesantosi.github.io/projetos-publicos/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/">newsletter-sign-up-with-success-message-main</a>
 - **Projeto 6**: <a href="https://guilhermesantosi.github.io/projetos-publicos/fylo-landing-page-with-two-column-layout-master/">fylo-landing-page-with-two-column-layout-master</a>
+- **Projeto 7**: <a href="https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/">conference-ticket-generator-main</a>
+
+
 
 
 # Contribuindo
