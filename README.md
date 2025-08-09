@@ -10,15 +10,15 @@ Bem-vindo ao meu repositório de projetos publicos! Este repositório contém v�
 
 Aqui estão alguns dos projetos que você pode encontrar neste repositório:
 
-- **Projeto 1**: <a  target=black href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a>È um projeto de tabela com informaçãoes de filmes
-- **Projeto 2**: <a  target=black href="https://guilhermesantosi.github.io/projetos-publicos/Perfil">Perfil</a> È um projeto sobre meus perfis da
+- **Projeto 1**: <a  target=_blank href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a>È um projeto de tabela com informaçãoes de filmes
+- **Projeto 2**: <a  target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/Perfil">Perfil</a> È um projeto sobre meus perfis da
   internet
-- **Projeto 3**: <a target=black href="https://guilhermesantosi.github.io/projetos-publicos/huddle-landing-page-with-single-introductory-section-master">huddle-landing-page-with-single-introductory-section-master</a>
-- **Projeto 4**: <a href="https://guilhermesantosi.github.io/projetos-publicos/fylo-data-storage-component-master/">fylo-data-storage-component-master</a> 
-- **Projeto 5**: <a href="https://guilhermesantosi.github.io/projetos-publicos/R%C3%A9logio-Digital/">Rélogio-Digital</a> È um projeto onde mostra o horario exato só que virtualmente
-- **Projeto 5**: <a href="https://guilhermesantosi.github.io/projetos-publicos/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/">newsletter-sign-up-with-success-message-main</a>
-- **Projeto 6**: <a href="https://guilhermesantosi.github.io/projetos-publicos/fylo-landing-page-with-two-column-layout-master/">fylo-landing-page-with-two-column-layout-master</a>
-- **Projeto 7**: <a href="https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/">conference-ticket-generator-main</a>
+- **Projeto 3**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/huddle-landing-page-with-single-introductory-section-master">huddle-landing-page-with-single-introductory-section-master</a>
+- **Projeto 4**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/fylo-data-storage-component-master/">fylo-data-storage-component-master</a> 
+- **Projeto 5**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/R%C3%A9logio-Digital/">Rélogio-Digital</a> È um projeto onde mostra o horario exato só que virtualmente
+- **Projeto 5**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/">newsletter-sign-up-with-success-message-main</a>
+- **Projeto 6**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/fylo-landing-page-with-two-column-layout-master/">fylo-landing-page-with-two-column-layout-master</a>
+- **Projeto 7**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/">conference-ticket-generator-main</a>
 
 
 
