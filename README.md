@@ -1,40 +1,53 @@
-# projetos-publicos
- Acesse meus projetos pessoais
 
+# 📂 Projetos Públicos
 
-# Projetos Publicos
-
-Bem-vindo ao meu repositório de projetos publicos! Este repositório contém vários projetos que fiz para aprimorar minhas habilidades em **HTML, CSS, JavaScript**. Eles são uma coleção de desafios que me ajudaram a aprender e melhorar ao longo do tempo.
-
-## Projetos
-
-Aqui estão alguns dos projetos que você pode encontrar neste repositório:
-
-- **Projeto 1**: <a  target=_blank href="https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes">dados de filmes</a>È um projeto de tabela com informaçãoes de filmes
-- **Projeto 2**: <a  target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/Perfil">Perfil</a> È um projeto sobre meus perfis da
-  internet
-- **Projeto 3**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/huddle-landing-page-with-single-introductory-section-master">huddle-landing-page-with-single-introductory-section-master</a>
-- **Projeto 4**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/fylo-data-storage-component-master/">fylo-data-storage-component-master</a> 
-- **Projeto 5**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/R%C3%A9logio-Digital/">Rélogio-Digital</a> È um projeto onde mostra o horario exato só que virtualmente
-- **Projeto 5**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/">newsletter-sign-up-with-success-message-main</a>
-- **Projeto 6**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/fylo-landing-page-with-two-column-layout-master/">fylo-landing-page-with-two-column-layout-master</a>
-- **Projeto 7**: <a target=_blank  href="https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/">conference-ticket-generator-main</a>
-
-
-
-
-# Contribuindo
-
-Se você gostaria de contribuir com melhorias ou sugestões, fique à vontade para criar um fork do repositório, fazer as alterações e enviar um pull request.
-
-**Licença**
-
-Este projeto está licenciado sob a [MIT licece]. Veja o arquivo LICENSE para mais detalhes.
-
+Bem-vindo ao meu repositório de **projetos públicos**!  
+Aqui você encontrará alguns dos trabalhos que desenvolvi para praticar e aprimorar minhas habilidades em **HTML, CSS e JavaScript**.  
+São pequenos desafios e experimentos que me ajudaram a evoluir como desenvolvedor.
 
 ---
 
-Obrigado por visitar meu repositório!
+## 🚀 Projetos
 
-Se você tem dúvidas ou sugestões, fique à vontade para abrir uma issue ou me enviar uma mensagem.
+- **[Dados de Filmes](https://guilhermesantosi.github.io/projetos-publicos/dados-de-filmes)**  
+  Um projeto de tabela com informações de filmes.
+
+- **[Perfil](https://guilhermesantosi.github.io/projetos-publicos/Perfil)**  
+  Página simples apresentando meus perfis da internet.
+
+- **[Huddle Landing Page](https://guilhermesantosi.github.io/projetos-publicos/huddle-landing-page-with-single-introductory-section-master)**  
+  Landing page com introdução única.
+
+- **[Fylo Data Storage](https://guilhermesantosi.github.io/projetos-publicos/fylo-data-storage-component-master/)**  
+  Componente de armazenamento de dados.
+
+- **[Relógio Digital](https://guilhermesantosi.github.io/projetos-publicos/R%C3%A9logio-Digital/)**  
+  Mostra o horário exato de forma digital e estilizada.
+
+- **[Newsletter Sign-Up](https://guilhermesantosi.github.io/projetos-publicos/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/)**  
+  Formulário de cadastro com mensagem de sucesso.
+
+- **[Fylo Landing Page](https://guilhermesantosi.github.io/projetos-publicos/fylo-landing-page-with-two-column-layout-master/)**  
+  Landing page com layout de duas colunas.
+
+- **[Conference Ticket Generator](https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/)**  
+  Gerador de ingressos para conferências.
+
+---
+
+## 🤝 Contribuindo
+
+Quer contribuir?  
+Fique à vontade para **fazer um fork**, criar melhorias e abrir um **pull request**.  
+Sugestões também são sempre bem-vindas!
+
+---
+
+## 📜 Licença
+
+Este repositório está licenciado sob a [MIT License](LICENSE).  
+Sinta-se livre para usar, modificar e compartilhar os projetos.
+
+---
+
 
