@@ -33,13 +33,19 @@ São pequenos desafios e experimentos que me ajudaram a evoluir como desenvolved
 - **[Conference Ticket Generator](https://guilhermesantosi.github.io/projetos-publicos/conference-ticket-generator-main/)**  
   Gerador de ingressos para conferências.
 
+- **[LIsta de tarefas](https://guilhermesantosi.github.io/projetos-publicos/lista-de-tarefas/)**
+- Site de lista de tarefas
+
 ---
 
 ## 🤝 Contribuindo
 
 Quer contribuir?  
 Fique à vontade para **fazer um fork**, criar melhorias e abrir um **pull request**.  
-Sugestões também são sempre bem-vindas!
+Sugestões para eu melhorar também são sempre bem-vindas!
+
+Acesse meu portifolio para me conhecer mais:
+Meu portifolio: **[Guilherme Santos](https://github.com/guilhermesantosi/profile)**
 
 ---
 
