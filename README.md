@@ -41,8 +41,7 @@ São pequenos desafios e experimentos que me ajudaram a evoluir como desenvolved
 ## 🤝 Contribuindo
 
 Quer contribuir?  
-Fique à vontade para **fazer um fork**, criar melhorias e abrir um **pull request**.  
-Sugestões para eu melhorar também são sempre bem-vindas!
+Fique à vontade para mandar Sugestões para eu melhorar. são sempre bem-vindas!
 
 Acesse meu portifolio para me conhecer mais:
 Meu portifolio: **[Guilherme Santos](https://github.com/guilhermesantosi/profile)**
