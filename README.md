@@ -34,7 +34,7 @@ São pequenos desafios e experimentos que me ajudaram a evoluir como desenvolved
   Gerador de ingressos para conferências.
 
 - **[LIsta de tarefas](https://guilhermesantosi.github.io/projetos-publicos/lista-de-tarefas/)**
-- Site de lista de tarefas
+  Site de lista de tarefas
 
 ---
 
