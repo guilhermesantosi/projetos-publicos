@@ -2,7 +2,7 @@
 # 📂 Projetos Públicos
 
 Bem-vindo ao meu repositório de **projetos públicos**!  
-Aqui você encontrará alguns dos trabalhos que desenvolvi para praticar e aprimorar minhas habilidades em **HTML, CSS e JavaScript**.  
+Aqui você encontrará alguns dos trabalhos que desenvolvi para praticar e aprimorar minhas habilidades em **HTML, CSS ,JavaScript e tambem outras linguagens de programação**.  
 São pequenos desafios e experimentos que me ajudaram a evoluir como desenvolvedor.
 
 ---
