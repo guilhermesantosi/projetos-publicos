@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100vw;
+    background-color: rgb(204, 240, 235);
+}
+
+.lista-de-tarefas{
+    margin: 10px auto;
+    max-width: 500px;
+    
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 30px;
+}
+
+.inputs>#name{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-bottom: 5px solid rgb(13, 201, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.inputs>#button{
+    height:30px ;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(13, 201, 13);
+    transition: 0.2s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.inputs>#button:hover{
+    background-color:rgb(24, 230, 24) ;
+}
+
+.inputs>.apagar{
+    position: relative;
+    right: 30px;
+    background: none;
+    border: none;
+    
+}
+
+.lista{
+    max-width: 380px;
+    margin: 30px auto;
+}
+
+.lista>ul{
+    margin-top: 30px;
+    list-style: none;
+}
+
+ul>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px ;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+li>.lixo{
+  width: 20px;
+  height: 20px;
+}
+
+li>.name-tarefa{
+  font-weight:900;
+  font-size: 1.2em;
+}

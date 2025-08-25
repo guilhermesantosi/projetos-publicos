@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lista-de-tarefas">
+        <h1 style="text-align: center;">lista de tarefas</h1>
+        
+        <form class="inputs">
+            <input type="text" name="name" id="name" placeholder="adicionar lista" maxlength="20">
+            <input class="apagar" type="reset" value="❌">
+            <input type="button" id="button" onclick="adicionar()" value="adicionar">
+        </form>
+        <div class="lista">
+            <h2>Tarefas</h2>
+            <ul id="ul">
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
