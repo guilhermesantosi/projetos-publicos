@@ -47,9 +47,12 @@ a:hover{
   padding: 10px;
 }
 
+.barra{
+    color: white;
+}
+
 @media (max-width: 768px) {
     .navigation{
-        gap: 10px;
-        flex-direction: column;
+        gap: 1px;
     }
 }
